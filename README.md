@@ -2,4 +2,4 @@
 
 ## Run
 
-To run the code usei ```go run .```
+To run the code use ```go run .```
