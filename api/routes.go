@@ -6,6 +6,10 @@ import (
 
 func rotas(router *gin.Engine) {
 
+  /* Declaração de rotas */
+  // GETTERS
   router.GET("/teste", teste)
+  router.GET("/listar/tipdoc", tiposDocumento)
+  router.GET("/listar/homedocs", documentos)
 
 }
